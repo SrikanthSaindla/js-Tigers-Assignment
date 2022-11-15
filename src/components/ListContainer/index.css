@@ -1,0 +1,51 @@
+table {
+    border: 2px solid forestgreen;
+    width: 50vw;
+    height: 200px;
+     
+}
+@media screen and (min-width:380px) {
+    .table{
+        width: 20vw;
+    }
+}
+
+th {
+    border-bottom: 1px solid black;
+    width: 100vw;
+}
+
+td {
+    text-align: center;
+    width: 100vw;
+}
+tr{
+    border: 1px solid black;
+}
+ .listcon{
+     margin-top: 20px;
+    padding-bottom: 200px;
+ }
+ .btn12{
+ background-color: transparent;
+ border: none;
+ 
+ }
+ .btn12:hover{
+    color: red;
+ }
+ .update{
+    background-color: green;
+    color: white;
+    border: none;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 2px;
+ }
+ .update:hover{
+    background-color: blue;
+        color: white;
+ }
+ tr{
+    border-bottom: 2px solid red;
+ }
